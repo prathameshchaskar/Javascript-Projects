@@ -24,13 +24,13 @@ To run this app locally, follow these steps:
 
 ## Usage
 
-1. **Adding a Task**: Enter your task in the input field and press Enter or click the "Add Task" button.
+1. **Adding a Task**: Enter your task in the input field and press Enter 
 
 2. **Completing a Task**: Click on the checkbox next to a task to mark it as completed.
 
-3. **Editing a Task**: Double-click on a task to edit its content. Press Enter to save your changes.
+3. **Editing a Task**: Click on a Ellipses to edit its content. Press Enter to save your changes.
 
-4. **Deleting a Task**: Hover over a task and click the delete icon (trash can) to remove it from your list.
+4. **Deleting a Task**: Click on a Ellipses to open its content and click the delete icon (trash can) to remove it from your list.
 
 ## Technologies Used
 
