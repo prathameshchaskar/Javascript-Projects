@@ -1,0 +1,80 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background-color: rgb(103, 168, 172);
+}
+
+.container {
+  max-width: 450px;
+  margin: 135px auto;
+  background: white;
+  border-radius: 8px;
+  padding: 2rem 1rem;
+}
+
+h1 {
+  font-size: 24px;
+  margin-bottom: 1rem;
+}
+
+input:not([type="checkbox"]),
+button {
+  appearance: none;
+  outline: none;
+  border: none;
+  background: none;
+}
+
+input[type="checkbox"] {
+  cursor: pointer;
+}
+
+.password-wrap {
+  position: relative;
+  display: flex;
+  width: 100%;
+  margin-bottom: 1rem;
+}
+
+.password-wrap input {
+  flex: 1 1 0%;
+  padding: 0.5rem;
+  font-size: 18px;
+  color: #282847;
+}
+
+.password-wrap button {
+  cursor: pointer;
+}
+
+label {
+  display: flex;
+  user-select: none;
+  margin-bottom: 1rem;
+}
+
+label span {
+  display: block;
+  flex: 1 1 0%;
+  white-space: nowrap;
+}
+
+label input[type="number"] {
+  text-align: right;
+}
+
+button[type="submit"] {
+  cursor: pointer;  
+  padding: 0.5rem 1rem;
+  color: #fff;
+  font-weight: bold;
+  border-radius: 0.25rem;
+  background: rgb(48, 114, 114);
+}
